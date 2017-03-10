@@ -1,0 +1,15 @@
+
+<button id="btn">click me to load a script that will be fetched with sri</button>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('./sri-worker.js')
+           .then(function() { console.log("SW registered"); })
+}
+btn.addEventListener("click", function() {
+  let s = document.createElement("script");
+  s.src = "http://code.jquery.com/jquery-3.1.1.min.js"
+  document.body.appendChild(s);
+
+})
+</script>
