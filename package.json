@@ -1,0 +1,33 @@
+{
+  "name": "sri-worker",
+  "version": "1.0.0",
+  "description": "service worker that implements Subresource Integrity",
+  "main": "sri-worker.js",
+  "dependencies": {
+    "eslint": "^3.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+     "test": "echo \"Warning: no test specified\" && exit 0",
+     "lint": "./node_modules/.bin/eslint index.js *.js"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddyb/sri-worker.git"
+  },
+  "keywords": [
+    "sri",
+    "subresource",
+    "integrity",
+    "subresource",
+    "integrity",
+    "security",
+    "service",
+    "workers"
+  ],
+  "author": "Frederik Braun",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/freddyb/sri-worker/issues"
+  },
+  "homepage": "https://github.com/freddyb/sri-worker#readme"
+}

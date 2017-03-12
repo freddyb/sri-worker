@@ -1,0 +1,13 @@
+{ "ecmaFeatures" : {
+    "modules" : true
+  },
+  "env" : {
+    "browser" : true,
+    "es6" : true /** all es6 features except modules */
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "no-console": 0,
+  }
+}
+
